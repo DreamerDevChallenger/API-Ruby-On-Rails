@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_09_06_080701) do
+ActiveRecord::Schema[7.0].define(version: 2023_09_06_082734) do
+  create_table "movie_lists", force: :cascade do |t|
+    t.integer "movie_rating"
+    t.string "movie_title"
+    t.string "movie_description"
+    t.string "movie_categories"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "secret_menu_items", force: :cascade do |t|
     t.string "menu_name"
     t.string "restaurant_name"
