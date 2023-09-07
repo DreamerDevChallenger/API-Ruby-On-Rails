@@ -1,6 +1,7 @@
 class MovieListsController < ApplicationController
   def index
-    @movieList = MovieList.all
+    @movieLists = MovieList.all
+    render json: @movieLists
   end
   def show
     @movieList = MovieList.find(params[:id])

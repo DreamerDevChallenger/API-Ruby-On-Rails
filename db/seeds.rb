@@ -11,3 +11,4 @@ menu2 = SecretMenuItem.create(menu_name: "Starbucks butterbeer Frappuccino", res
 menu3 = SecretMenuItem.create(menu_name: "Skittles", restaurant_name: "Jamba Juice", menu_description:"A mixture of lemonade, lime sherbet, frozen yogurt, and strawberries")
 
 movie1 = MovieList.create(movie_title: "Avenger", movie_categories: "Action", movie_description: "Marvel", movie_rating: 4)
+movie2 = MovieList.create(movie_title: "Star Wars", movie_categories: "Adventure", movie_description: "Jedi", movie_rating: 3)
